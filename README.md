@@ -1,3 +1,8 @@
-# My Awesome Book
+\# 关于linux下的技巧与功能
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+1. linux command
+
++ nginx的安装（nginx \| tenginx）
+
++ java原理
+
