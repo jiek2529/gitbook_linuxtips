@@ -2,12 +2,12 @@
 
 ```
 常用命令
+jar
 javac
 java
 javap
 javah
 javadoc
-
 ```
 
 1. [groovy console](/java/groovyconsole.md)
