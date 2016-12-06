@@ -16,6 +16,7 @@
   option + 方向左或右 光标跳到前一分词位
   FN + 方向上下左右 翻页
   CMD + K 清屏
+  Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
 ```
 ~Mac 键盘快捷键- Apple 支持： [support](https://support.apple.com/zh-cn/HT201236)
 
