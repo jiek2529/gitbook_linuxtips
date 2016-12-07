@@ -23,6 +23,7 @@
 ~Mac 键盘快捷键- Apple 支持： [support](https://support.apple.com/zh-cn/HT201236)
 
 + 常用命令
+  
   1. scutil > sudo scutil --set HostName {new_name} #设置命令行机器名
   + scutil --get HostName 获取命令行机器名
 
@@ -30,8 +31,6 @@
   ```
   Shift + 4 行尾  6行首
   ```
-+ 
-  adsfa
 
 + openssl
   ```
