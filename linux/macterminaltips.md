@@ -4,6 +4,8 @@
 
 + Require password after sleep or screen saver:  apple > System preferences > Security & Privacy > General > 5 seconds
 
++ AirDrop的机器名设置：system preferences > sharing > modify computer name
+
 + 命令行常用快捷键
   ```
   Ctrl + A 光标跳行最前端
@@ -20,10 +22,16 @@
 ```
 ~Mac 键盘快捷键- Apple 支持： [support](https://support.apple.com/zh-cn/HT201236)
 
++ 常用命令
+  1. scutil > sudo scutil --set HostName {new_name} #设置命令行机器名
+  + scutil --get HostName 获取命令行机器名
+
 + VIM
   ```
   Shift + 4 行尾  6行首
   ```
++ 
+  adsfa
 
 + openssl
   ```
