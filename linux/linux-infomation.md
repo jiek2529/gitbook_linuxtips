@@ -1,4 +1,4 @@
-# view linux infomation
+# view linux hardware infomation
 
 1. cpu
   <pre>1. cpu统计信息 > lscpu
