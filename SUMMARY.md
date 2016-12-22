@@ -6,6 +6,8 @@
     * [liunx命令](linux/linuxcommand.md)
     * [linux-infomation](linux/linux-infomation.md)
     * [vim](linux/vim.md)
+    * [oh-my-zsh](linux/oh-my-zsh.md)
+    * [yum](linux/yum.md)
 * [nginx](nginx/README.md)
     * [nginx env](nginx/nginx.md)
     * [tengine](nginx/tengine.md)

@@ -22,7 +22,6 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 
 ## 安装
 + 安装 apt-get：
-+ sudo apt-get install zsh
-
-+ yum
++ apt-get安装zsh > sudo apt-get install zsh
++ yum安装zsh > yum install zsh
 + brew
