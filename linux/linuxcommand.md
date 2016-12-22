@@ -1,5 +1,7 @@
 # linux命令 
-1. 一般 man命令查看 manual.  eg: man ls
+
+1. system info > lsb_release -a 或 > uname -a
++ 一般 man命令查看 manual.  eg: man ls
 + ssh [jiek]@[ip] -p [port]  #ssh连接remote机器
 + useradd -d /home/[jiek] [jiek]  #添加用户
 + passwd [jiek]  #设置修改密码

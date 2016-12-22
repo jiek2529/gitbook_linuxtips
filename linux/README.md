@@ -2,4 +2,5 @@
 
 1. [mac命令](/linux/macterminaltips.md)
 + [liunx命令](/linux/linuxcommand.md)
-+ [LinuxInfo](/linux/linux-infomation.md)
++ [LinuxInformation](/linux/linux-infomation.md)
++ [vim](/linux/vim.md)
