@@ -4,6 +4,7 @@
 * [linux](linux/README.md)
     * [mac命令](linux/macterminaltips.md)
     * [liunx命令](linux/linuxcommand.md)
+    * [linux-infomation](linux/linux-infomation.md)
 * [nginx](nginx/README.md)
     * [nginx env](nginx/nginx.md)
     * [tengine](nginx/tengine.md)

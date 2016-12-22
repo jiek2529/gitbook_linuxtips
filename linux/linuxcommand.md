@@ -7,3 +7,20 @@
 + ftp 同scp
 + locale #查看系统支持编码清单
 + /etc/sysconfig/i18n 下存编码格式
+
+oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
+一个增强版shell工具
+
+## 下载模块
++ wget -O {outfilename} {url} #下载url存在指定目录的文件名
+
++ curl
+
+
+
+## 安装
++ 安装 apt-get：
++ sudo apt-get install zsh
+
++ yum
++ brew
