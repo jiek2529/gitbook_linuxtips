@@ -5,4 +5,4 @@
 + passwd [jiek]  #设置修改密码
 + scp [jiek]@[ip]/[home/jiek]/temp.md ./temp.md  #把本地文件上传到远程服务器
 + ftp 同scp
-+ 
++ locale #查看系统支持编码清单
