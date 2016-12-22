@@ -6,3 +6,4 @@
 + scp [jiek]@[ip]/[home/jiek]/temp.md ./temp.md  #把本地文件上传到远程服务器
 + ftp 同scp
 + locale #查看系统支持编码清单
++ /etc/sysconfig/i18n 下存编码格式

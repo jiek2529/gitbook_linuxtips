@@ -63,3 +63,6 @@
 20161121安装未成功，提示openssl的一堆定义未声明，待研究
 
   ```
+  
+* 取消MAC的iTunes的iphone信认(20161222)
+ iphone 设置setting > 通用general > 还原reset > 还原网络设置reset network settings
