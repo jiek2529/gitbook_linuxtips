@@ -8,6 +8,7 @@
     * [vim](linux/vim.md)
     * [oh-my-zsh](linux/oh-my-zsh.md)
     * [yum](linux/yum.md)
+    * [linuxPartitions](linux/linuxpartitions.md)
 * [nginx](nginx/README.md)
     * [nginx env](nginx/nginx.md)
     * [tengine](nginx/tengine.md)

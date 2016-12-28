@@ -30,3 +30,6 @@
   2. view bios > dmidecode -t bios
   3. view be less verbose > dmidecode -q
   </pre>
+  
+## [linux partitions.分区说明](linuxpartitions.md)
+   

@@ -1,6 +1,8 @@
 # linux命令 
 
 1. system info > lsb_release -a 或 > uname -a
++ whoami #查看当前登录用户名
++ env #查看当前环境
 + 一般 man命令查看 manual.  eg: man ls
 + ssh [jiek]@[ip] -p [port]  #ssh连接remote机器
 + useradd -d /home/[jiek] [jiek]  #添加用户

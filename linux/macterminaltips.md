@@ -26,11 +26,17 @@
   
   1. scutil > sudo scutil --set HostName {new_name} #设置命令行机器名
   + scutil --get HostName 获取命令行机器名
+  + whoami
+  + env
+  + sudo su - #切换到root用户
+  + mkfile -n 1g ~/empty.log　创建占用空文件（20150908）
+    ； 类WINDOW下的管理员执行fsutil file createnew empty.log 1024000
 
 + VIM
   ```
   Shift + 4 行尾  6行首
   ```
++ mac目录含义
 
 + openssl
   ```
