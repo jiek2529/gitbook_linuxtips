@@ -64,5 +64,9 @@
 
   ```
   
-* 取消MAC的iTunes的iphone信认(20161222)
++ 取消MAC的iTunes的iphone信认(20161222)
  iphone 设置setting > 通用general > 还原reset > 还原网络设置reset network settings
+ 
+ 
+FAQ:
+> terminal 显示文件内容为空，但文件确实有内容，原因可能是修改过命令终端的编码格式。（原本是U8，我改成hz gb2312时会必现此现象 20161228）
