@@ -100,11 +100,11 @@ The /dev directory is a special directory, since it does not really contain file
 
 + ## /proc
 The /proc directory is also special. This directory does not contain files. In fact, this directory does not really exist at all. It is entirely virtual. The /proc directory contains little peep holes into the kernel itself. There are a group of numbered entries in this directory that correspond to all the processes running on the system. In addition, there are a number of named entries that permit access to the current configuration of the system. Many of these entries can be viewed. Try viewing /proc/cpuinfo. This entry will tell you what the kernel thinks of your CPU.
-**`译：/proc目录也很特别。它里不包含文件。事实上，这个目录关不总是存在。它是完全虚拟的。这里包含小的窥视内核自己的句柄。它们是一组编号条目，组合着系统中所有进程运行。另外，`**
+**`译：/proc目录也很特别。它里不包含文件。事实上，这个目录关不总是存在。它是完全虚拟的。这里包含小的窥视内核自己的句柄。它们是一组编号条目，组合着系统中所有进程运行。另外，还有许多命名条目允许访问系统的当前配置，可以查看这里的许多条目。尝试查看/proc/cpuinfo。这些条目将告诉你内核对CPU的看法。`**
 
 + ## /media,/mnt
 Finally, we come to /media, a normal directory which is used in a special way. The /media directory is used for mount points. As we learned in the second lesson, the different physical storage devices (like hard disk drives) are attached to the file system tree in various places. This process of attaching a device to the tree is called mounting. For a device to be available, it must first be mounted.
-**`译：`**
+**`译：最后，我们到了/media,一个常规目录在特别的地方使用到。这个目录是安装点。同我们学习第二课，不同的物理存储设备（如硬盘驱动器）在各种位置附接到文件系统树。附接设备到树的过程叫安装挂载。要使设备可用，它必须先挂载。`**
 
 `When your system boots, it reads a list of mounting instructions in the file /etc/fstab, which describes which device is mounted at which mount point in the directory tree. This takes care of the hard drives, but you may also have devices that are considered temporary, such as CD-ROMs and floppy disks. Since these are removable, they do not stay mounted all the time. The /media directory is used by the automatic device mounting mechanisms found in modern desktop oriented Linux distributions. On systems that require manual mounting of removable devices, the /mnt directory provides a convenient place for mounting these temporary devices. You will often see the directories /mnt/floppy and /mnt/cdrom. To see what devices and mount points are used, type mount.`
-**`译：`**
+**`译：系统引导时，它读取文件/etc/fstab中挂载设备指令列表，其中描述了哪些设备安装到目录树的哪个挂载点。这里小心硬件驱动器，但是它也可能被认为是临时设备，如SD-ROM和软盘。由于糨们是可移除的，它们不是一直保持挂载的。/media目录是现代面向桌面系统的Linux发行版中的自动设备挂载机制使用。在需要手动加载可移除设备的系统上，/mnt目录为挂载临时这些设备提供了一个方便的地方。你常见的是/mnt/floppy /mnt/cdrom.查看哪些挂载点被使用了，输入 > mount.`**
