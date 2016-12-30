@@ -1,6 +1,8 @@
-# linux命令 
+# linux command.linux命令 
 
 1. system info > lsb_release -a 或 > uname -a
++ getconf LONG_BIT #查看系统位数；uname -a也能看出。
++ [linuxInformation](/linux/linux-infomation.md)
 + whoami #查看当前登录用户名
 + env #查看当前环境
 + 一般 man命令查看 manual.  eg: man ls
@@ -11,19 +13,42 @@
 + ftp 同scp
 + locale #查看系统支持编码清单
 + /etc/sysconfig/i18n 下存编码格式
++ cd - #返回上次的目录
++ ctrl + r #（reverse-i-search）搜索并执行
++ netstat -an | grep 端口号 #查看端口占用情况
 
 oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 一个增强版shell工具
 
-## 下载模块
+## download 下载模块
 + wget -O {outfilename} {url} #下载url存在指定目录的文件名
 
 + curl
 
 
 
-## 安装
+## install 安装
 + 安装 apt-get：
 + apt-get安装zsh > sudo apt-get install zsh
 + yum安装zsh > yum install zsh
 + brew
+
+## compression 压缩
+> zip a.zip a.md #把a.md打包进a.zip
+
+> tar -cvf a.tar folderOrFiles #把文件或目录打包，不压缩
+
+> tar -zcvf a.tar.gz folderOrFiles #打包并以gzip压缩
+
+> tar -jcvf a.tar.bz2 folderOrFiles #打包并以bzip2压缩
+
+> tar -ztvf a.tar.gz 查看tar.gz包中文件有哪些
+
+> tar -jtvf a.tar.bz2 查看tar.bz2包中文件有哪些
+
+## decompression 解压
+> .tar.gz  > tar -zxvf **.tar.gz
+
+> .tar.bz2 > tar -jxvf **.tar.bz2
+
+> .zip     > unzip **.zip  # 加-t参数是验证包的完整性
