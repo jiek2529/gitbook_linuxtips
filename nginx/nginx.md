@@ -31,3 +31,11 @@ eg: > ./configure
   2. > yum -y install pcre-devel #安装pcre-devel，不确定是否需要这样安装？？？
 
 ```
+
+```
+apache的开关： service httpd (start|restart|graceful|graceful-stop|stop)
+
+查看端口占用情况： > lsof -i tcp:80
+查看端口：        > netstat -tln   或  netstat -an | grep 80
+查看运行中的进程： > ps -ef | grep (apache|nginx)
+```
