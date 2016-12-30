@@ -1,8 +1,10 @@
 # nginx
 
-```
 http://nginx.org/download/
 
+https://www.nginx.com/resources/wiki/start/topics/tutorials/commandline/
+
+```
 其需要的资源及下载地址
 pcre --> http://www.pcre.org/
 ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/
@@ -30,6 +32,8 @@ eg: > ./configure
   1. > pcre 可能下载的是pcre2,改成pcre-8.39，应该就可以。
   2. > yum -y install pcre-devel #安装pcre-devel，不确定是否需要这样安装？？？
 
+  > ./nginx # 启动
+  > ./nginx -s stop # 停止
 ```
 
 ```

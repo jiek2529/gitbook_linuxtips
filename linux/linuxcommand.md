@@ -9,7 +9,7 @@
 + ssh [jiek]@[ip] -p [port]  #ssh连接remote机器
 + useradd -d /home/[jiek] [jiek]  #添加用户
 + passwd [jiek]  #设置修改密码
-+ scp [jiek]@[ip]/[home/jiek]/temp.md ./temp.md  #把本地文件上传到远程服务器
++ 传输文件 > scp -P (22) tmp.md [jiek]@[ip]/[home/jiek]:/home/jiek/  #把本地文件上传到远程服务器 ；注意 **-P、 ：**
 + ftp 同scp
 + locale #查看系统支持编码清单
 + /etc/sysconfig/i18n 下存编码格式
@@ -26,7 +26,14 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 + curl
 
 
-
+## 上传
+1. scp -v -P (22) tmp.md [jiek]@[ip]/[home/jiek]:/home/jiek/  
+```
+    把本地tmp.md上传到远程服务器 ；
+    注意 1. -P接端口，默认22；2. 远程地址后的冒号，分割地址与目录**
+    -v verbose mode 冗长模式
+```
+    
 ## install 安装
 + 安装 apt-get：
 + apt-get安装zsh > sudo apt-get install zsh
@@ -34,8 +41,6 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 + brew
 
 ## compression 压缩
-> zip a.zip a.md #把a.md打包进a.zip
-
 > tar -cvf a.tar folderOrFiles #把文件或目录打包，不压缩
 
 > tar -zcvf a.tar.gz folderOrFiles #打包并以gzip压缩
@@ -46,9 +51,15 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 
 > tar -jtvf a.tar.bz2 查看tar.bz2包中文件有哪些
 
+> zip a.zip a.md #把a.md打包进a.zip > zip `-r` f.zip folder
+
+> rar
+
 ## decompression 解压
 > .tar.gz  > tar -zxvf **.tar.gz
 
 > .tar.bz2 > tar -jxvf **.tar.bz2
 
-> .zip     > unzip **.zip  # 加-t参数是验证包的完整性
+> .zip     > unzip **.zip -d a/ # 加-t参数是验证包的完整性
+
+> .rar     > unrar

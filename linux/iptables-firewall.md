@@ -8,7 +8,7 @@
 
 ## 开关放80端口
     开 > iptables -I INPUT -p TCP --dport 80 -j ACCEPT
-    关 > iptables -A OUTPUT -p TCP--dport 80 -j DROP
+    关 > iptables -A OUTPUT -p TCP --dport 80 -j DROP
     以上为临时的，键入即生效。
     如果要持久有效> service iptables save && service iptables restart
 
