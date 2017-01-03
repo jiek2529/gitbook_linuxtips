@@ -36,6 +36,34 @@ eg: > ./configure
   > ./nginx -s stop # 停止
 ```
 
+## nginx https config segment
+<pre>server {
+        listen       443 ssl;
+        server_name  www.jiek.com;
+
+        ssl_certificate      www.jiek.com.crt;
+        ssl_certificate_key  www.jiek.com.key;
+
+       # ssl_session_cache    shared:SSL:10m;
+       # ssl_session_timeout  10m;
+
+       # ssl_ciphers  HIGH:!aNULL:!MD5;
+       # ssl_prefer_server_ciphers  on;
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+        ssl_ciphers ECDHE-RSA-AES256-SHA384:AES256-SHA256:RC4:HIGH:!MD5:!aNULL:!eNULL:!NULL:!DH:!EDH:!AESGCM;
+        ssl_prefer_server_ciphers on;
+        ssl_session_cache shared:SSL:10m;
+        ssl_session_timeout 10m;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }</pre>
+
+
+#### SNI（Server Name Indication）是为了解决一个服务器使用多个域名和证书的SSL/TLS扩展。一句话简述它的工作原理就是，在连接到服务器建立SSL链接之前先发送要访问站点的域名（Hostname），这样服务器根据这个域名返回一个合适的证书。目前，大多数操作系统和浏览器都已经很好地支持SNI扩展，OpenSSL 0.9.8已经内置这一功能，据说新版的nginx也支持SNI。
+
+## apache基本操作
 ```
 apache的开关： service httpd (start|restart|graceful|graceful-stop|stop)
 
