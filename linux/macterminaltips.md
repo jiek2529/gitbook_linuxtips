@@ -20,6 +20,8 @@
   FN + 方向上下左右 翻页
   CMD + K 清屏
   Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
+  
+  ** Finder 中 Ctrl + K 打开远程连接smb
 ```
 ~Mac 键盘快捷键- Apple 支持： [support](https://support.apple.com/zh-cn/HT201236)
 
@@ -37,8 +39,6 @@
   ```
   Shift + 4 行尾  6行首
   ```
-+ mac目录含义
-
 + openssl
   ```
   Mac上升级Openssl
