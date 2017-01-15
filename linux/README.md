@@ -20,6 +20,7 @@ Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
 >
 > last reboot
 
+
 ```
 terminal常用快捷键
 Ctrl + d        删除一个字符，相当于通常的Delete键（命令行若无所有字符，则相当于exit；处理多行标准输入时也表示eof）
