@@ -37,6 +37,17 @@ eg: > ./configure
 ```
 
 ## nginx https config segment
+
+```
+server {  
+    listen  80;  
+    server_name icitsoft.com;  
+    ...
+    rewrite ^(.*)$  https://$host$1 permanent;  #自动把http转为https方式访问
+    ...
+}
+```
+
 <pre>server {
         listen       443 ssl;
         server_name  www.jiek.com;
