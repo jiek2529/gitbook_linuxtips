@@ -23,7 +23,7 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 ## download 下载模块
 + wget -O {outfilename} {url} #下载url存在指定目录的文件名
 
-+ curl
++ curl 访问地址的
 
 
 ## 上传
@@ -63,3 +63,5 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 > .zip     > unzip **.zip -d a/ # 加-t参数是验证包的完整性
 
 > .rar     > unrar
+
+> .tar.xz  > xz -d a.tar.xz  # 解压为.tar文件，> tar -xvf a.tar
