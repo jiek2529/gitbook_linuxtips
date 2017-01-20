@@ -3,7 +3,7 @@
     "heading-anchors",
     "-search",
     "theme-api"
- ]
+ ],
  "pluginsConfig": {
         "theme-api": {
             "theme": "dark"
