@@ -1,6 +1,6 @@
 {
 "language": "zh-cn",
-"plugins": ["splitter","navigation", "anchor-navigation", "expandable-chapters"],
+"plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters"],
 "pluginsConfig": {
     }
 }
