@@ -6,7 +6,10 @@
         },
         "editlink": {
           "base": "https://github.com/jiek2529/Tips/edit/master/content",
-          "label": "Edit This Page",
+          "label": {
+                "en": "Edit This Page",
+                "zh-cn": "编辑本页"
+            },
           "multilingual": false
         }
     }
