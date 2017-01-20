@@ -3,6 +3,11 @@
 "pluginsConfig": {
         "disqus": {
             "shortName": "XXXXXXX"
+        }，
+        "editlink": {
+          "base": "https://github.com/jiek2529/Tips/edit/master/content",
+          "label": "Edit This Page",
+          "multilingual": false
         }
     }
 }
