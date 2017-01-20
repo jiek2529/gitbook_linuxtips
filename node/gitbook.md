@@ -11,6 +11,6 @@ https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
 运行本机gitbook> gitbook serve & 
 ```
 
-https://j.icitsoft.com/blog/
+https://jiek.icitsoft.com/
 
 https://www.gitbook.com/@jiek

@@ -18,3 +18,5 @@ terminal //去运行看控制台输出结果，markdown效果，不能输出表�
 > node markdown.js
 
 ^ 参考：http://www.letiantian.me/2014-10-19-node-markdown-marked-convert-markdown/
+
+2. [gitbook](/node/gitbook.md)
