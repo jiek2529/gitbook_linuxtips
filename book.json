@@ -1,24 +1,3 @@
 {
-"plugins": ["anchorjs",
-/*    "heading-anchors",
-    "-search",
-    "theme-api"*/
- ],
- "pluginsConfig": {
-        "theme-api": {
-            "theme": "dark",
-            "split": true
-        },
-        "languages": [
-        {
-          "lang": "js",
-          "name": "JavaScript",
-          "default": true
-        },
-        {
-          "lang": "go",
-          "name": "Go"
-        }
-      ]
-    }
+"plugins": ["anchorjs",]
 }
