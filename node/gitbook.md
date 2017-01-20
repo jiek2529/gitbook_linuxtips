@@ -22,16 +22,16 @@ https://libraries.io/
 ```
 在项目的book.json文件中编辑添加插件
 { "plugin": { 
-        "comment",
-        "highlight",
-        "search",
-        "fontsettings"
-        ,"splitter"
-        ,"expandable-chapters" #左菜单二级折叠
-        ,"anchors"
-        ,"anchor-navigation-ex"
-        ,"page-footer"
-        ,"splitter"   # 左导航可变宽度
+        "comment",             # ...
+        "highlight",           # 高亮
+        "search",              # 左导航顶部搜索
+        "fontsettings"         # 左上角字体设置
+        ,"expandable-chapters" # 左菜单二级折叠
+        ,"anchors"             # 右边锚点索引 带 回顶部
+        ,"anchor-navigation-ex"# 右边锚点索引 带 回顶部
+        ,"page-footer"         # 页尾
+        ,"splitter"            # 左导航可变宽度
+        ,"editlink"            # 左上角出现编辑按钮
         }
 }
 再在book.json的同级目录运行 > gitbook install ，即能把添加的插件一一安装上。

@@ -5,7 +5,7 @@
             "shortName": "XXXXXXX"
         },
         "editlink": {
-          "base": "https://github.com/jiek2529/Tips/edit/master/content",
+          "base": "https://www.gitbook.com/book/jiek/linuxtips/edit",
           "label": {
                 "en": "Edit This Page",
                 "zh-cn": "编辑本页"
