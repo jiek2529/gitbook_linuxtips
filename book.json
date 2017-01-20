@@ -1,8 +1,8 @@
 {
 "plugins": ["anchorjs",
-    "heading-anchors",
+/*    "heading-anchors",
     "-search",
-    "theme-api"
+    "theme-api"*/
  ],
  "pluginsConfig": {
         "theme-api": {
