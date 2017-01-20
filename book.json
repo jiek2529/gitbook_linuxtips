@@ -1,3 +1,8 @@
 {
-"plugins": ["anchor-navigation", "expandable-chapters"]
+"plugins": ["anchor-navigation", "expandable-chapters","disqus"]
+"pluginsConfig": {
+        "disqus": {
+            "shortName": "XXXXXXX"
+        }
+    }
 }
