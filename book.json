@@ -1,12 +1,12 @@
 {
 "language": "zh-hans",
-"plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters", "livereload", "disqus"
+"plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters", "livereload", "disqus",
     "-search",
-    "search-pro"
-    , "advanced-emoji"
-    , "include-codeblock"
-    , "tbfed-pagefooter"
-    , "sectionx"
+    "search-pro",
+    "advanced-emoji",
+    "include-codeblock",
+    "tbfed-pagefooter",
+    "sectionx"
 ],
 "pluginsConfig": {
         "disqus": {
