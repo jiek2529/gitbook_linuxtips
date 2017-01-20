@@ -1,5 +1,5 @@
 {
-"language": "zh",
+"language": "zh-cn",
 "plugins": ["splitter","anchor-navigation", "expandable-chapters"],
 "pluginsConfig": {
     }
