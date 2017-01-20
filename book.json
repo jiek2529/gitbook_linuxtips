@@ -1,13 +1,6 @@
 {
-"plugins": ["splitter","anchor-navigation", "expandable-chapters","editlink"],
+"language": "zh",
+"plugins": ["splitter","anchor-navigation", "expandable-chapters"],
 "pluginsConfig": {
-        "editlink": {
-          "base": "https://www.gitbook.com/book/jiek/linuxtips/edit",
-          "label": {
-                "en": "Edit This Page",
-                "zh-cn": "编辑本页"
-            },
-          "multilingual": false
-        }
     }
 }
