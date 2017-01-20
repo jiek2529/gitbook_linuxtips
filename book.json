@@ -1,3 +1,6 @@
 {
-"plugins": ["anchorjs", "-search"]
+"plugins": ["anchorjs",
+ "-search",
+ "theme-api"
+ ]
 }
