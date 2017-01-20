@@ -1,9 +1,6 @@
 {
-"plugins": ["splitter","anchor-navigation", "expandable-chapters","disqus","editlink"],
+"plugins": ["splitter","anchor-navigation", "expandable-chapters","editlink"],
 "pluginsConfig": {
-        "disqus": {
-            "shortName": "XXXXXXX"
-        },
         "editlink": {
           "base": "https://www.gitbook.com/book/jiek/linuxtips/edit",
           "label": {
