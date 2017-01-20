@@ -1,6 +1,25 @@
 {
-"language": "zh-cn",
-"plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters"],
+"language": "zh-hans",
+"plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters", "livereload", "disqus"
+    "-search",
+    "search-pro"
+    , "advanced-emoji"
+    , "include-codeblock"
+    , "tbfed-pagefooter"
+    , "sectionx"
+],
 "pluginsConfig": {
+        "disqus": {
+                "shortName": "gitbook@jiek"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["Gitbook Use"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy Jiek 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
     }
 }
