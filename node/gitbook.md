@@ -44,7 +44,7 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
         ,"spoiler"             # 透视，遮挡，折叠...
         ,"youtubex"            # youtube视频插件
         }
-  "pluginConfig": {
+  "pluginsConfig": {
         "disqus": {            # 此处的插件配置与插件配套使用，键同上一样。配置方式由插件说明去配置。
               ...
         }
@@ -93,7 +93,7 @@ https://github.com/ymcatar/gitbook-plugin-mcqx
 
 ```
 eg:
-{%mcq ans="o1", count=2 random=true%}
+{%mcq ans="o1", count=2, random=true%}
 {%title%} This is a question?
 {%o1%} First option
 {%o2%} Second option
@@ -102,7 +102,7 @@ eg:
 {%hint%} This is a hint.
 {%endmcq%}
 ```
-{%mcq ans="o1", count=2 random=true%}
+{%mcq ans="o1", count=2, random=true%}
 {%title%} This is a question?
 {%o1%} First option
 {%o2%} Second option
