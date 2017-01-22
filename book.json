@@ -1,6 +1,12 @@
 {
 "language": "zh-hans",
-"plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters", "livereload", "disqus",
+"plugins": [
+    "splitter",
+    "anchors", 
+    "anchor-navigation-ex", 
+    "expandable-chapters", 
+    "livereload", 
+    "disqus",
     "advanced-emoji",
     "include-codeblock",
     "sections",
@@ -13,7 +19,7 @@
             "shortName": "jiek"
         },
         "search-pro": {
-            "cutWordLib": "nodejieba",
+            "cutWordLib": "快捷键",
             "defineWord" : ["Gitbook Use"]
         }
     }
