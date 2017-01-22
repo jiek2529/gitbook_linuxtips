@@ -3,14 +3,14 @@
 "plugins": ["splitter","anchors", "anchor-navigation-ex", "expandable-chapters", "livereload", "disqus",
     "advanced-emoji",
     "include-codeblock",
-    "sectionx",
+    "sections",
     "-search",
     "search-pro",
     "emphasize"
 ],
 "pluginsConfig": {
         "disqus": {
-                "shortName": "jiek"
+            "shortName": "jiek"
         },
         "search-pro": {
             "cutWordLib": "nodejieba",
