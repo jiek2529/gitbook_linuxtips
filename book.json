@@ -8,10 +8,7 @@
     "livereload", 
     "fbqx",
     "advanced-emoji",
-    "include-codeblock",
-    "-search",
-    "search-pro",
-    "emphasize",
+    "include-codeblock",    "emphasize",
     "ace"
 ]
 }
