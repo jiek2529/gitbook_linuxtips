@@ -1,8 +1,10 @@
-# gitbook
+#gitbook
 
 [install nodejs&npm](/node/installnodejs.md)
+
 https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
 
+## install gitbook
 ```
 > npm install -g gitbook-cli
 > gitbook init  # 如果是空项目，可以使用这个方法去创建初始项目
@@ -17,6 +19,9 @@ https://www.gitbook.com/@jiek
 
 
 ##plugin插件
+
+https://plugins.gitbook.com/
+
 https://libraries.io/
 
 ```
@@ -32,12 +37,31 @@ https://libraries.io/
         ,"page-footer"         # 页尾
         ,"splitter"            # 左导航可变宽度
         ,"editlink"            # 左上角出现编辑按钮
+        ,"disqus"              # disqus.com的论坛插件
         }
+  "pluginConfig": {
+        "disqus": {            # 此处的插件配置与插件配套使用，键同上一样。配置方式由插件说明去配置。
+              ...
+        }
+  }
 }
 再在book.json的同级目录运行 > gitbook install ，即能把添加的插件一一安装上。
 
 此目录下的package.json文件是通过这条命令自动生成的。
 ```
+
+##默认带有五个插件
+
+```
+highlight
+search
+sharing
+font-settings
+livereload
+除去自带插件，插件前加「-」，如："-search"
+```
+
+
 ------
 
 npm install --save gitbook-plugin-toggle-chapters #等同于上这的plugin的『expandable-chapters』
