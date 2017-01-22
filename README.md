@@ -8,14 +8,6 @@
 + java原理
 + [markdown](/markdown/README.md)
   
-<!--
-{%mcq ans="o1"%}
-{%title%} This is a question?
-{%o1%} First option
-{%o2%} Second option
-{%o3%} Third option
-{%o4%} Fourth option
-{%endmcq%}-->
 
 <!--sec data-title="Introduction" data-id="intro" data-nopdf="true" ces-->
 This page is implemented using the two plugins developed by me: ```gitbook-plugin-sectionx```, please check the [Github repo](https://github.com/ymcatar/gitbook-plugin-sectionx) for the plugin.
