@@ -16,7 +16,8 @@
     "search-plus",
     "sectionx",
     "mcqx",
-    "facebook"
+    "facebook",
+    "-comments"
 ],
 "pluginsConfig": {
     "sectionx": {
@@ -26,7 +27,7 @@
         "appKey": "206811166450251"
     },
     "include-codeblock": {
-        "template": "ace", // or acefull
+        "template": "ace",
     }
 }
 }
