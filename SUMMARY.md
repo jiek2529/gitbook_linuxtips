@@ -31,7 +31,7 @@
     * [install gitbook](/node/gitbook.md#install-gitbook)
     * [plugin](/node/gitbook.md#plugin插件)
     * [normal plugin](/node/gitbook.md#默认带有五个插件)
-    * [facebook comment](/node/gitbook.md#facebook-comment）
+    * [facebookcomment](/node/gitbook.md#facebook-comment)
     * [sectionx](/node/gitbook.md#sectionx)
     * [mcqx](/node/gitbook.md#mcqx)
     * [ace](/node/gitbook.md#ace)
