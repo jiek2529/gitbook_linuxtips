@@ -10,6 +10,11 @@
     "advanced-emoji",
     "include-codeblock", 
     "emphasize",
-    "ace"
-]
+    "ace",
+    "-lunr",
+    "-search",
+    "search-plus"
+],
+"pluginConfig": {
+}
 }
