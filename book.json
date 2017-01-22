@@ -12,11 +12,5 @@
     "-search",
     "search-pro",
     "emphasize"
-],
-"pluginsConfig": {
-        "search-pro": {
-            "cutWordLib": "快捷键",
-            "defineWord" : ["Gitbook Use"]
-        }
-    }
+]
 }

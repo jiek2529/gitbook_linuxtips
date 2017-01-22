@@ -24,6 +24,8 @@ https://plugins.gitbook.com/
 
 https://libraries.io/
 
+https://ymcatar.gitbooks.io/gitbook-test/content/
+
 ```
 在项目的book.json文件中编辑添加插件
 { "plugin": { 
