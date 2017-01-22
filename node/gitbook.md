@@ -16,7 +16,7 @@ https://jiek.icitsoft.com/
 https://www.gitbook.com/@jiek
 
 
-##插件
+##plugin插件
 https://libraries.io/
 
 ```

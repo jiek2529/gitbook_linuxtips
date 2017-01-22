@@ -1,5 +1,6 @@
 # linux command.linux命令 
 
+## 常用命令
 1. system info > lsb_release -a 或 > uname -a
 + getconf LONG_BIT #查看系统位数；uname -a也能看出。
 + [linuxInformation](/linux/linux-infomation.md)

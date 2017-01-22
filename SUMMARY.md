@@ -1,9 +1,14 @@
 # Summary
 
-* [Introduction](README.md)
+1. [Introduction](README.md)
 * [linux](linux/README.md)
   * [mac命令](linux/macterminaltips.md)
   * [liunx命令](linux/linuxcommand.md)
+    * [liunx命令](linux/linuxcommand.md#常用命令)
+    * [liunx命令](linux/linuxcommand.md#download 下载模块)
+    * [liunx命令](linux/linuxcommand.md#上传)
+    * [liunx命令](linux/linuxcommand.md#install 安装)
+    * [liunx命令](linux/linuxcommand.md#compression 压缩)
   * [linux-infomation](linux/linux-infomation.md)
   * [vim](linux/vim.md)
   * [oh-my-zsh](linux/oh-my-zsh.md)
@@ -21,6 +26,5 @@
 * [git](git.md)
 * [nodejs](node/README.md)
     * [installNodejs](node/installnodejs.md)
-
-
-
+    * [gitbook](/node/gitbook.md)
+    
