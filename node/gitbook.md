@@ -1,4 +1,4 @@
-#gitbook
+gitbook
 
 [install nodejs&npm](/node/installnodejs.md)
 
@@ -72,3 +72,43 @@ livereload
 npm install --save gitbook-plugin-toggle-chapters #等同于上这的plugin的『expandable-chapters』
 
 ------
+
+## sectionx
+
+```
+<!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
+Insert markdown content here (you should start with h3 if you use heading).
+<!--endsec-->
+```
+<!--sec data-title="Introduction" data-id="section0" data-show=true ces-->
+Insert markdown content here (you should start with h3 if you use heading).
+<!--endsec-->
+
+
+## mcqx
+
+问答题 gitbook-plugin-mcqx
+
+https://github.com/ymcatar/gitbook-plugin-mcqx
+
+```
+eg:
+{%mcq ans="o1", count=2 random=true%}
+{%title%} This is a question?
+{%o1%} First option
+{%o2%} Second option
+{%o3%} Third option
+{%o4%} Fourth option
+{%hint%} This is a hint.
+{%endmcq%}
+```
+{%mcq ans="o1", count=2 random=true%}
+{%title%} This is a question?
+{%o1%} First option
+{%o2%} Second option
+{%o3%} Third option
+{%o4%} Fourth option
+{%hint%} This is a hint.
+{%endmcq%}
+
+

@@ -14,11 +14,16 @@
     "-lunr",
     "-search",
     "search-plus",
-    "sectionx"
+    "sectionx",
+    "mcqx",
+    "facebook"
 ],
 "pluginConfig": {
     "sectionx": {
-              "tag": "b"
-            }
+        "tag": "b"
+    },
+    "facebook": {
+        "appKey": {{206811166450251}}
+    }
 }
 }
