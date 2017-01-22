@@ -72,6 +72,25 @@ livereload
 npm install --save gitbook-plugin-toggle-chapters #等同于上这的plugin的『expandable-chapters』
 
 ------
+## facebook comment
+
+**usage**
+
+To add Facebook comments into your GitBook, you need to first obtain your personal Application ID from Facebook. To do so, you can follow the guide here.
+
+After obtaining the ID, add the following config into your book.json and you should be good to go:
+```
+"plugins": [
+    "facebook"
+    ...
+],
+"pluginsConfig": {
+    "facebook": {
+        "appKey": {{YOUR ID SHOULD BE INSERTED HERE}}
+    }
+    ...
+}
+```
 
 ## sectionx
 
@@ -111,4 +130,14 @@ eg:
 {%hint%} This is a hint.
 {%endmcq%}
 
+## ace
 
+{%ace edit=true, lang='c_cpp'%}
+// This is a hello world program for C.
+#include <stdio.h>
+
+int main(){
+  printf("Hello World!");
+  return 1;
+}
+{%endace%}

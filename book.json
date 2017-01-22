@@ -24,6 +24,9 @@
     },
     "facebook": {
         "appKey": "206811166450251"
+    },
+    "include-codeblock": {
+        "template": "ace", // or acefull
     }
 }
 }
