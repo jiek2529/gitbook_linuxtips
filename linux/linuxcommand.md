@@ -1,4 +1,4 @@
-# linux command.linux命令 
+#linux command.linux命令 
 
 ## 常用命令
 1. system info > lsb_release -a 或 > uname -a
