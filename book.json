@@ -11,6 +11,7 @@
     "include-codeblock",
     "-search",
     "search-pro",
-    "emphasize"
+    "emphasize",
+    "ace"
 ]
 }
