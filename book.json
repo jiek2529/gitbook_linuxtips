@@ -19,8 +19,8 @@
 "variables": {},
 "language": "zh-hans",
 "plugins": [
-    "splitter",
-    "anchors", 
+    "anchors",
+    "anchor-navigation-ex",
     "expandable-chapters",
     "livereload", 
     "fbqx",
