@@ -23,6 +23,8 @@
     "anchor-navigation-ex",
     "expandable-chapters",
     "splitter",
+    "multipart",
+    "facebook",
     "fbqx",
     "advanced-emoji",
     "include-codeblock", 
@@ -32,8 +34,7 @@
     "-search",
     "search-plus",
     "sectionx",
-    "mcqx",
-    "facebook"
+    "mcqx"
 ],
 "pluginsConfig": {
     "sectionx": {
