@@ -21,12 +21,12 @@
 "plugins": [
     "anchors",
     "anchor-navigation-ex",
-    "expandable-chapters",
     "splitter",
     "multipart",
     "theme-comscore",
     "facebook",
     "mathjax",
+    "toggle-chapters",
     "fbqx",
     "advanced-emoji",
     "include-codeblock", 
