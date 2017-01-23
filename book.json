@@ -16,7 +16,8 @@
     "search-plus",
     "sectionx",
     "mcqx",
-    "facebook"
+    "facebook",
+    "-comment"
 ],
 "pluginsConfig": {
     "sectionx": {
