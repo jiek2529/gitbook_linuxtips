@@ -21,6 +21,7 @@
 "plugins": [
     "anchors",
     "anchor-navigation-ex",
+    "expandable-chapters",
     "livereload", 
     "fbqx",
     "advanced-emoji",
