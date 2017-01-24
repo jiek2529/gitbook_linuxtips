@@ -26,10 +26,9 @@
     "expandable-chapters",
     "-lunr",
     "-search",
-    "search-pro",
+    "search-plus",
     "facebook",
     "-livereload",
-    "theme-api",
     
     "fbqx",
     "advanced-emoji",
@@ -49,22 +48,6 @@
             "theme": "white",
             "family": "serif",
             "size": 2
-        },
-    "customtheme": {
-          "css": ["custom/css/app.css"],
-          "js": ["custom/js/app.js"]
-        },
-    "theme-api": {
-      "languages": [
-        {
-          "lang": "js",
-          "name": "JavaScript",
-          "default": true
-        },
-        {
-          "lang": "go",
-          "name": "Go"
         }
-      ]}
     }
 }
