@@ -20,19 +20,7 @@
 "language": "zh-hans",
 "plugins": [
 "customtheme",
-    "anchors",
-    "anchor-navigation-ex",
-    "splitter",
-    "expandable-chapters",
     
-    "facebook",
-    "-livereload",
-    
-    "fbqx",
-    "advanced-emoji",
-    "include-codeblock", 
-    "emphasize",
-    "ace",
     "mcqx"
 ],
 "pluginsConfig": {
