@@ -22,30 +22,28 @@
     "anchors",
     "anchor-navigation-ex",
     "splitter",
-    "multipart",
-    "theme-comscore",
+    "expandable-chapters",
+    "-lunr",
+    "-search",
+    "search-plus",
     "facebook",
-    "mathjax",
+    
     "fbqx",
     "advanced-emoji",
     "include-codeblock", 
     "emphasize",
     "ace",
-    "-lunr",
-    "-search",
-    "search-plus",
-    "sectionx",
     "mcqx"
 ],
 "pluginsConfig": {
-    "sectionx": {
-        "tag": "b"
-    },
     "facebook": {
         "appKey": "206811166450251"
     },
     "include-codeblock": {
         "template": "ace"
-    }
+    },
+    "anchor-navigation-ex":{
+        "isRewritePageTitle":true
+    } 
 }
 }
