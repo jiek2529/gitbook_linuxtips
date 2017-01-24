@@ -49,11 +49,6 @@
             "family": "serif",
             "size": 2
         },
-    "analytics": [
-        {
-            "vendor": "google",
-            "token": "TOKEN-1",
-            "base": "https://jiek.icitsoft.com"
-        }]
+    "analytics": {}
     }
 }
