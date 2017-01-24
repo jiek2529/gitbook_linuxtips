@@ -38,12 +38,17 @@
 "pluginsConfig": {
     "facebook": {
         "appKey": "206811166450251"
-    },
+        },
     "include-codeblock": {
         "template": "ace"
-    },
+        },
     "anchor-navigation-ex":{
         "isRewritePageTitle":true
-    } 
-}
+        },
+    "fontsettings": {
+            "theme": 'white', // 'sepia', 'night' or 'white',
+            "family": 'sans', // 'serif' or 'sans',
+            "size": 2         // 1 - 4
+        }
+    }
 }
