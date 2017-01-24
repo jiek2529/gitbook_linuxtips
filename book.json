@@ -19,6 +19,7 @@
 "variables": {},
 "language": "zh-hans",
 "plugins": [
+"customtheme",
     "anchors",
     "anchor-navigation-ex",
     "splitter",
@@ -49,12 +50,16 @@
             "family": "serif",
             "size": 2
         },
+    "customtheme": {
+          "css": ['custom/css/app.css'],
+          "js": ['custom/js/app.js']
+        },
     "theme-api": {
       "languages": [
         {
-          "lang": "js",          // sample lang argument
-          "name": "JavaScript",  // corresponding name to be displayed
-          "default": true        // default language to show
+          "lang": "js",
+          "name": "JavaScript",
+          "default": true
         },
         {
           "lang": "go",
