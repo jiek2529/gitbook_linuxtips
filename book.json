@@ -19,16 +19,11 @@
 "variables": {},
 "language": "zh-hans",
 "plugins": [
-    "anchors",
-    "anchor-navigation-ex",
-    "splitter",
-    "expandable-chapters",
     "-lunr",
     "-search",
     "search-plus",
     "facebook",
     "-livereload",
-    "toggle2",
     
     "fbqx",
     "advanced-emoji",
