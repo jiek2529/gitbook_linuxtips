@@ -25,7 +25,7 @@
     "expandable-chapters",
     "-lunr",
     "-search",
-    "search-plus",
+    "search-pro",
     "facebook",
     "-fontsettings",
     "-livereload",
@@ -48,6 +48,10 @@
             "theme": "white",
             "family": "serif",
             "size": 2
+        },
+    "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["gitbook","快捷键"]
         }
     }
 }
