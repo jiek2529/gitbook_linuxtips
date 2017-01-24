@@ -17,7 +17,7 @@
 },
 "title": "Jiek's GitBook",
 "variables": {},
-"language": "zh",
+"language": "zh-hans",
 "plugins": [
     "anchors",
     "anchor-navigation-ex",
@@ -29,6 +29,7 @@
     "facebook",
     "-fontsettings",
     "-livereload",
+    "page-toc",
     
     "fbqx",
     "advanced-emoji",
