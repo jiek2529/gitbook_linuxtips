@@ -20,7 +20,21 @@
 "language": "zh-hans",
 "plugins": [
 "customtheme",
+    "anchors",
+    "anchor-navigation-ex",
+    "splitter",
+    "expandable-chapters",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "facebook",
+    "-livereload",
     
+    "fbqx",
+    "advanced-emoji",
+    "include-codeblock", 
+    "emphasize",
+
     "ace",
     "mcqx"
 ],
