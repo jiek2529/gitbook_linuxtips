@@ -27,6 +27,7 @@
     "-search",
     "search-plus",
     "facebook",
+    "-fontsettings",
     
     "fbqx",
     "advanced-emoji",
@@ -42,12 +43,9 @@
     "include-codeblock": {
         "template": "ace"
         },
-    "anchor-navigation-ex":{
-        "isRewritePageTitle":true
-        },
     "fontsettings": {
             "theme": "white",
-            "family": "sans",
+            "family": "serif",
             "size": 2
         }
     }
