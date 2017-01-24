@@ -21,6 +21,7 @@
 "plugins": [
 "customtheme",
     
+    "ace",
     "mcqx"
 ],
 "pluginsConfig": {
