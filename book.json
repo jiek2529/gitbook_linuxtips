@@ -17,14 +17,13 @@
 },
 "title": "Jiek's GitBook",
 "variables": {},
-"language": "zh-tw",
+"language": "zh-hans",
 "plugins": [
 "customtheme",
     "anchors",
     "anchor-navigation-ex",
     "splitter",
-    "expandable-chapters",
-    "book-summary-scroll-position-saver",
+    "collapsible-menu",
     
     "facebook",
     "-livereload",
