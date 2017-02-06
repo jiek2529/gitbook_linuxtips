@@ -5,12 +5,15 @@
 https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
 
 ## install gitbook
-```
+```shell
 > npm install -g gitbook-cli
 > gitbook init  # 如果是空项目，可以使用这个方法去创建初始项目
 或把自己的markdown项目考进去，也行
 
 运行本机gitbook> gitbook serve & 
+必须在book.json的目录去执行此命令
+> gitbook --port 5000 serve &   # 即使用5000端口运行程序
+> gitbook install               # 即把book.json里添加的plugin的插件全部安装上。
 ```
 
 https://jiek.icitsoft.com/
@@ -71,7 +74,6 @@ livereload
 除去自带插件，插件前加「-」，如："-search"
 ```
 
-
 ------
 
 npm install --save gitbook-plugin-toggle-chapters #等同于上这的plugin的『expandable-chapters』
@@ -84,7 +86,7 @@ npm install --save gitbook-plugin-toggle-chapters #等同于上这的plugin的�
 To add Facebook comments into your GitBook, you need to first obtain your personal Application ID from Facebook. To do so, you can follow the guide here.
 
 After obtaining the ID, add the following config into your book.json and you should be good to go:
-```
+```json
 "plugins": [
     "facebook"
     ...
@@ -96,6 +98,8 @@ After obtaining the ID, add the following config into your book.json and you sho
     ...
 }
 ```
+
+[语法中文]: http://xianbai.me/learn-md/article/extension/strikethrougn.html "语法中文"
 
 ## sectionx
 
