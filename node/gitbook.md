@@ -29,7 +29,7 @@ https://libraries.io/
 
 https://ymcatar.gitbooks.io/gitbook-test/content/
 
-```
+```json
 在项目的book.json文件中编辑添加插件
 { "plugin": { 
         "comment",             # ...
@@ -54,7 +54,7 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
         }
   "pluginsConfig": {
         "disqus": {            # 此处的插件配置与插件配套使用，键同上一样。配置方式由插件说明去配置。
-              ...
+              "shortName": "jiek"
         }
   }
 }
