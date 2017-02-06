@@ -99,7 +99,7 @@ After obtaining the ID, add the following config into your book.json and you sho
 }
 ```
 
-[语法中文]: http://xianbai.me/learn-md/article/extension/strikethrougn.html "语法中文"
+[语法中文]("http://xianbai.me/learn-md/article/extension/strikethrougn.html" "语法中文")
 
 ## sectionx
 
