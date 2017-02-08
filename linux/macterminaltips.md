@@ -22,21 +22,21 @@ Ctrl + P        调出命令历史中的前一条（Previous）命令，相当�
 Ctrl + N        调出命令历史中的下一条（Next）命令，相当于通常的上箭头
 Ctrl + R        显示：号提示，根据用户输入查找相关历史命令（reverse-i-search）
 Alt + 方向左右，跳一个参数段
+_
 次常用快捷键：
 Alt + F         光标向前（Forward）移动到下一个单词
 Alt + B         光标往回（Backward）移动到前一个单词
 Ctrl + W        删除光标前一段参数
 Alt + D         删除从光标位置到当前所处单词的末尾
 Ctrl + Y        粘贴最后一次被删除的单词  
-  Alt + 方向左右，跳一个参Ctrl + E 光标跳行最末端
-  Ctr
-  Shift + CMD + { }切换terminal前后Tab页
-  CMD + T 新开Terminal
-  option + 方向左或右 光标跳到前一分词位
-  FN + 方向上下左右 翻页
-  CMD + K 清屏
-  Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
-  ** Finder 中 Ctrl + K 打开远程连接smb
+Alt + 方向左右，跳一个参Ctrl + E 光标跳行最末端
+Shift + CMD + { }切换terminal前后Tab页
+CMD + T 新开Terminal
+option + 方向左或右 光标跳到前一分词位
+FN + 方向上下左右 翻页
+CMD + K 清屏
+Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
+** Finder 中 Ctrl + K 打开远程连接smb
 ```
 ~Mac 键盘快捷键- Apple 支持： [support](https://support.apple.com/zh-cn/HT201236)
 
