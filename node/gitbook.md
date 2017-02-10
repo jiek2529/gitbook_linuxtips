@@ -46,6 +46,7 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
         "search-plus",         # 搜索，内容索引
         "spoiler",             # 透视，遮挡，折叠...
         "youtubex",            # youtube视频插件
+        "collapsible-menu",    # **它可能会导致界面显示出异常头尾代码**
         
         "facebook",            # facebook develop comment plugin
         "duoshuo",             # 多说
