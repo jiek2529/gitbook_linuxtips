@@ -9,7 +9,7 @@
     * [liunx 上传](linux/linuxcommand.md#上传)
     * [liunx install 安装](linux/linuxcommand.md#install-安装)
     * [liunx compression 压缩](linux/linuxcommand.md#compression-压缩)
-    * [liunx compression 压缩](linux/linuxcommand.md#decompression-解压)
+    * [liunx decompression 解压](linux/linuxcommand.md#decompression-解压)
   * [linux-infomation](linux/linux-infomation.md)
   * [vim](linux/vim.md)
   * [oh-my-zsh](linux/oh-my-zsh.md)
