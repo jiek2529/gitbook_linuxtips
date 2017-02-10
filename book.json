@@ -23,9 +23,9 @@
     "anchors",
     "anchor-navigation-ex",
     "splitter",
-    "collapsible-menu",
     "expandable-chapters",
     
+    "facebook",
     "-livereload",
     
     "fbqx",
@@ -37,6 +37,9 @@
     "mcqx"
 ],
 "pluginsConfig": {
+    "facebook": {
+        "appKey": "206811166450251"
+    },
     "include-codeblock": {
         "template": "ace"
         },
