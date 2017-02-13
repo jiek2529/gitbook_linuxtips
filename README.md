@@ -1,5 +1,9 @@
 # 关于linux下的技巧与功能
 
+<https://www.gitbook.com/@jiek>
+
+[contact me联系我](mailto:gaopinjie@gmail.com)
+
 1. linux command
   1. [mac命令](/linux/macterminaltips.md)
   + [linux命令](/linux/linuxcommand.md)
