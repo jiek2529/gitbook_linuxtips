@@ -1,6 +1,6 @@
 # 关于linux下的技巧与功能
 
-[jiek's gitbook](https://www.gitbook.com/@jiek)
+[Jiek's gitbook](https://www.gitbook.com/@jiek)
 
 [contact me联系我](mailto:gaopinjie@gmail.com)
 
