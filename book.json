@@ -27,6 +27,7 @@
     "expandable-chapters",
     
     "facebook",
+    "ga",
     "-livereload",
     
     "fbqx",
@@ -40,6 +41,9 @@
 "pluginsConfig": {
     "facebook": {
         "appKey": "206811166450251"
+    },
+    "ga": {
+        "token": "UA-91821795-1"
     },
     "include-codeblock": {
         "template": "ace"
