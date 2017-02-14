@@ -6,4 +6,3 @@ ref: [download](https://nodejs.org/en/download/)
 + [gitbook](/node/gitbook.md)
 
 !INCLUDE "gitbook.md"
->{% include "./gitbook.md" %}
