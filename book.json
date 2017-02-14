@@ -16,8 +16,8 @@
         "Jiek's Gitbook": "https://www.gitbook.com/@jiek"
     }
 },
-variables: {
-    nickname: "jiek.kou"
+"variables": {
+    "nickname": "jiek.kou"
   },
 "title": "Jiek's GitBook",
 "variables": {},
