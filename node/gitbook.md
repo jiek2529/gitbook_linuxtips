@@ -4,6 +4,8 @@
 
 https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
 
+https://toolchain.gitbook.com/syntax/markdown.html
+
 ## install gitbook
 ```shell
 > npm install -g gitbook-cli
@@ -131,6 +133,8 @@ After obtaining the ID, add the following config into your book.json and you sho
 ```
 
 [GitBook语法.中文](http://xianbai.me/learn-md/article/extension/strikethrougn.html "GitBook语法.中文")
+
+------
 
 ## sectionx
 

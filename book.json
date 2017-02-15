@@ -46,7 +46,8 @@
         "token": "UA-91821795-1"
     },
     "include-codeblock": {
-        "template": "ace"
+        "template": "acefull",
+        "theme": "monokai"
         },
     "fontsettings": {
             "theme": "white",
