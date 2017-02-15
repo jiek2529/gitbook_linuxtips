@@ -42,7 +42,7 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
         "page-footer",         # 页尾
         "splitter",            # 左导航可变宽度
         "editlink",            # 左上角出现编辑按钮
-        ,"disqus"              # disqus.com的论坛插件，中国一般无法使用
+        "disqus",              # disqus.com的论坛插件，中国一般无法使用
         "search-plus",         # 搜索，内容索引
         "spoiler",             # 透视，遮挡，折叠...
         "youtubex",            # youtube视频插件
@@ -130,7 +130,7 @@ After obtaining the ID, add the following config into your book.json and you sho
 }
 ```
 
-[语法中文]("http://xianbai.me/learn-md/article/extension/strikethrougn.html" "语法中文")
+[GitBook语法.中文](http://xianbai.me/learn-md/article/extension/strikethrougn.html "GitBook语法.中文")
 
 ## sectionx
 
