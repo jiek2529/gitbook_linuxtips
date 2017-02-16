@@ -55,6 +55,9 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
         "duoshuo",             # 多说
         "comment",             #...
         "disqus",              # disqus.com的论坛插件，中国一般无法使用
+        
+        "katex",               # KaTex数学表达式
+        "maxjax",              # MaxJax数学表达式
         }
   "pluginsConfig": {
         "disqus": {            # 此处的插件配置与插件配套使用，键同上一样。配置方式由插件说明去配置。

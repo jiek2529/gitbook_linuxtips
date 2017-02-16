@@ -50,10 +50,6 @@ Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
   + mkfile -n 1g ~/empty.log　创建占用空文件（20150908）
     ； 类WINDOW下的管理员执行fsutil file createnew empty.log 1024000
 
-+ VIM
-  ```
-  Shift + 4 行尾  6行首
-  ```
 + openssl
   ```
   Mac上升级Openssl
