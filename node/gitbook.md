@@ -1,5 +1,7 @@
 # gitbook
 
+[How to install gitbook?](https://www.npmjs.com/package/gitbook-cli)
+
 [install nodejs&npm](/node/installnodejs.md)
 
 https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
@@ -33,7 +35,9 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
 
 ```json
 在项目的book.json文件中编辑添加插件
-{ "plugin": { 
+{ 
+"gitbook","2.0.0",             # 指定版本运行。
+"plugin": { 
         "comment",             # ...
         "highlight",           # 高亮
         "search",              # 左导航顶部搜索
@@ -70,10 +74,18 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
 此目录下的package.json文件是通过这条命令自动生成的。
 ```
 
+## pulgin version setting
+
+查看使用的插件版本号
+指定插件版本号：
+{
+"plugin: ["ace@0.2.1"]  **//当不带@version时，表示使用最新版本latest**
+}
+
 ## nginx + gitbook
 
 自搭服务器，安装nginx和gitbook环境
-$ gitbook serve &   #运行默认4000的服务
+$ gitbook serve --gitbook=2.0.0 &   #运行默认4000的服务;可用--getbook=2.0.0来指定版本运行。默认用最新的版本。
 
 nginx.conf中添加
 
