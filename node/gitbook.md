@@ -2,6 +2,8 @@
 
 [How to install gitbook?](https://www.npmjs.com/package/gitbook-cli)
 
+[GitBook Help Center](https://help.gitbook.com/)
+
 [install nodejs&npm](/node/installnodejs.md)
 
 https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
