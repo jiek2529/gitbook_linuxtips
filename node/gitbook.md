@@ -56,6 +56,8 @@ https://ymcatar.gitbooks.io/gitbook-test/content/
         "youtubex",            # youtube视频插件
         "collapsible-menu",    # **它可能会导致界面显示出异常头尾代码**
         "include",             # template模板包含
+
+        "theme-api",           # 样式（分右上角语言、左上角分分屏 ![](https://github.com/GitbookIO/theme-api/raw/master/img/layout-icon.png) ）
         
         "facebook",            # facebook develop comment plugin
         "duoshuo",             # 多说
