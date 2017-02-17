@@ -26,6 +26,10 @@ https://jiek.icitsoft.com/
 
 https://www.gitbook.com/@jiek
 
+---
+npm 的 **package.json** > https://docs.npmjs.com/files/package.json
+
+GitBook 的 **book.json** > https://toolchain.gitbook.com/config.html
 
 ##plugin插件
 
