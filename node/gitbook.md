@@ -106,8 +106,8 @@ nginx.conf中添加
   ...
 }
 ```
-虚路径访问方法：http://jiek.domain.com/gitbook/,访问后，点击书中其它页，
-如：http://jiek.domain.com/gitbook/first.html后，页面正常显示，但地址会变为：http://jiek.domain.com/first.html，再在页面中访问其它任何页，都会是404不存在的问题（页面无动静）。
+虚路径访问方法：`http://jiek.domain.com/gitbook/`,访问后，点击书中其它页，
+如：`http://jiek.domain.com/gitbook/first.html`后，页面正常显示，但地址会变为：`http://jiek.domain.com/first.html`，再在页面中访问其它任何页，都会是404不存在的问题（页面无动静）。
 
 解决方案：
 
@@ -122,6 +122,7 @@ nginx.conf中添加
 ##GitBook多语言
 
 https://toolchain.gitbook.com/languages.html
+
 eg: https://jiek.gitbooks.io/multiple_languages/content/
 
 ```text
