@@ -113,6 +113,32 @@ nginx.conf中添加
 + nginx -s reload
 一切正常了，访问自己服务上的gitbook的任何页，不会出来跳不动的显示 ，且response headers中都不会出现 X-Current-Location了。
 
+##GitBook多语言
+
+https://toolchain.gitbook.com/languages.html
+eg: https://jiek.gitbooks.io/multiple_languages/content/
+
+```text
+$ tree .
+|-- book.json
+|-- SUMMARY.md 
+|-- LANGS.md
+|-- en
+| |-- chapter1.md
+| |-- README.md
+| `-- SUMMARY.md 
+`-- zh
+  |-- chapter1.md
+  |-- README.md
+  `-- SUMMARY.md
+
+$ vi LANGS.md
+#Languages
+
+* [English](en/)
+* [中文](zh/)
+```
+
 ##默认带有五个插件
 
 ```
