@@ -1,22 +1,26 @@
 #linux command.linux命令 
 
 ## 常用命令
-1. system info > lsb_release -a 或 > uname -a
-+ getconf LONG_BIT #查看系统位数；uname -a也能看出。
-+ [linuxInformation](/linux/linux-infomation.md)
-+ whoami #查看当前登录用户名
-+ env #查看当前环境
-+ 一般 man命令查看 manual.  eg: man ls
-+ ssh [jiek]@[ip] -p [port]  #ssh连接remote机器
-+ useradd -d /home/[jiek] [jiek]  #添加用户
-+ passwd [jiek]  #设置修改密码
-+ 传输文件 > scp -P (22) tmp.md [jiek]@[ip]/[home/jiek]:/home/jiek/  #把本地文件上传到远程服务器 ；注意 **-P、 ：**
-+ ftp 同scp
-+ locale #查看系统支持编码清单
-+ /etc/sysconfig/i18n 下存编码格式
-+ cd - #返回上次的目录
-+ ctrl + r #（reverse-i-search）搜索并执行
-+ netstat -an | grep 端口号 #查看端口占用情况
+command |  description
+---|---
+lsb_release -a <br/> uname -a| system info
+getconf LONG_BIT| 查看系统位数；uname -a也能看出。
+linuxInformation| [linuxInformation](/linux/linux-infomation.md)
+whoami| 查看当前登录用户名
+env| 查看当前环境
+man ls| 一般 man命令查看 manual.
+ssh [jiek]@[ip] -p [port]| ssh连接remote机器
+useradd -d /home/[jiek] [jiek]| 添加用户
+passwd [jiek]| 设置修改密码
+scp -P (22) tmp.md [jiek]@[ip]/[home/jiek]:/home/jiek/| 把本地文件上传到远程服务器 ；注意 **-P、 ：**
+ftp| 同scp
+locale| 查看系统支持编码清单
+vi /etc/sysconfig/i18n| 下存编码格式
+cd -| 返回上次的目录
+ctrl + r| （reverse-i-search）搜索并执行
+netstat -an \| grep 端口号| 查看端口占用情况
+telnet ip 443| 显示网络状态
+lsof -i :22| 查看端口运行情况
 
 oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 一个增强版shell工具
