@@ -6,8 +6,8 @@
 
 + AirDrop的机器名设置：system preferences > sharing > modify computer name
 
-+ 命令行常用快捷键
-  ```
+##命令行常用快捷键
+```text
 Ctrl + D        删除一个字符，相当于通常的Delete键（命令行若无所有字符，则相当于exit；处理多行标准输入时也表示eof）
 Ctrl + H        退格删除一个字符，相当于通常的Backspace键
 Ctrl + U        删除光标之前到行首的字符
@@ -40,7 +40,7 @@ Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
 ```
 ~Mac 键盘快捷键- Apple 支持： [support](https://support.apple.com/zh-cn/HT201236)
 
-+ 常用命令
+##常用命令
   
   1. scutil > sudo scutil --set HostName {new_name} #设置命令行机器名
   + scutil --get HostName 获取命令行机器名
@@ -50,7 +50,16 @@ Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
   + mkfile -n 1g ~/empty.log　创建占用空文件（20150908）
     ； 类WINDOW下的管理员执行fsutil file createnew empty.log 1024000
 
-+ openssl
+##brew
+mac 下使用的下载安装工具
+
+https://github.com/Homebrew/homebrew-core
+
+https://github.com/caskroom/homebrew-cask
+
+[清华开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
+
+##openssl
   ```
   Mac上升级Openssl
   默认系统中存在一个0.9.8在/usr/bin/openssl,因权限问题，不可删除
@@ -72,19 +81,20 @@ Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
   > openssl version    //查看是否是自己编译生成的openssl的版本
   ```
 
-+ tengine
+##tengine
   ##### install tengine reference :[http://www.tuicool.com/articles/mQnAryz](http://www.tuicool.com/articles/mQnAryz)
-  ```
+```cmd
 > ./configure --prefix=/Users/jiek/Downloads/tengine --with-pcre=/Users/jiek/Downloads/tengine_install/pcre-8.36 --with-zlib=/Users/jiek/Downloads/tengine\_install/zlib-1.2.8 --with-openssl=/Users/jiek/Downloads/tengine_install/openssl-1.0.2a --with-http_gzip_static_module --with-http_realip_module --with-http_stub_status_module --with-http_concat_module --with-http_footer_filter_module=shared --with-http_limit_req_module=shared
 > make && make install
-##### 注：pcre：ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre，直接下载解压并放入--with-pcre的目录位置就行.
-20161121安装未成功，提示openssl的一堆定义未声明，待研究
 
-  ```
+** 注：pcre：ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre，直接下载解压并放入--with-pcre的目录位置就行.
+20161121安装未成功，提示openssl的一堆定义未声明，待研究
+**
+```
   
-+ 取消MAC的iTunes的iphone信认(20161222)
+##取消MAC的iTunes的iphone信认(20161222)
  iphone 设置setting > 通用general > 还原reset > 还原网络设置reset network settings
  
  
-FAQ:
+##FAQ:
 > terminal 显示文件内容为空，但文件确实有内容，原因可能是修改过命令终端的编码格式。（原本是U8，我改成hz gb2312时会必现此现象 20161228）
