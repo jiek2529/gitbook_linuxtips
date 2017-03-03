@@ -19,7 +19,7 @@ Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
 > uptime \# 开机时间，及开机到现在的天数； mac & linux都可用
 >
 > last reboot
-
+> watch 'du -msh ./'  #实现每半分钟执行一个后边的命令 （20170303）
 
 ```
 terminal常用快捷键
