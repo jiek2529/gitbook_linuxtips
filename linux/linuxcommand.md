@@ -46,27 +46,38 @@ oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 + brew
 
 ## compression 压缩
-> tar -cvf a.tar folderOrFiles #把文件或目录打包，不压缩
+```command
+$ tar -cvf a.tar folderOrFiles #把文件或目录打包，不压缩
 
-> tar -zcvf a.tar.gz folderOrFiles #打包并以gzip压缩
+$ tar -zcvf a.tar.gz folderOrFiles #打包并以gzip压缩
 
-> tar -jcvf a.tar.bz2 folderOrFiles #打包并以bzip2压缩
+$ tar -jcvf a.tar.bz2 folderOrFiles #打包并以bzip2压缩
 
-> tar -ztvf a.tar.gz 查看tar.gz包中文件有哪些
+$ tar -ztvf a.tar.gz 查看tar.gz包中文件有哪些
 
-> tar -jtvf a.tar.bz2 查看tar.bz2包中文件有哪些
+$ tar -jtvf a.tar.bz2 查看tar.bz2包中文件有哪些
 
-> zip a.zip a.md #把a.md打包进a.zip > zip `-r` f.zip folder
+$ zip a.zip a.md #把a.md打包进a.zip > zip `-r` f.zip folder
 
-> rar
+$ rar
+```
 
 ## decompression 解压
-> .tar.gz  > tar -zxvf **.tar.gz
+```command
+.tar.gz  $ tar -zxvf **.tar.gz
 
-> .tar.bz2 > tar -jxvf **.tar.bz2
+.tar.bz2 $ tar -jxvf **.tar.bz2
 
-> .zip     > unzip **.zip -d a/ # 加-t参数是验证包的完整性
+.zip     $ unzip **.zip -d a/ # 加-t参数是验证包的完整性
 
-> .rar     > unrar
+.rar     $ unrar
 
-> .tar.xz  > xz -d a.tar.xz  # 解压为.tar文件，> tar -xvf a.tar
+.tar.xz  $ xz -d a.tar.xz  # 解压为.tar文件，> tar -xvf a.tar
+```
+
+##有用的一些东西
+
+```command
+$ ll `which java`   #输出java的列表目录内容
+
+```
