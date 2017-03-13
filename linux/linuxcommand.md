@@ -73,6 +73,8 @@ $ rar
 .rar     $ unrar
 
 .tar.xz  $ xz -d a.tar.xz  # 解压为.tar文件，> tar -xvf a.tar
+
+$ unzip -l test.apk        #查看apk下的文件清单
 ```
 
 ##有用的一些东西
