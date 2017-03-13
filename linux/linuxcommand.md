@@ -83,3 +83,14 @@ $ ll `which java`   #输出java的列表目录内容,shell中`反逗号内为运
 $ fpath=$(readlink -f .) && echo $fpath   ##获取文件的绝对路径； MAC下要安装`$ brew install coreunits`; `greadlink -f .`
 
 ```
+
+以下为AndResGuard的实践示例简单shell
+```command
+#!/usr/bin/env bash
+file=$1                    #获取第一个参数
+if [ ! $file ]; then       #当此变更为空时
+  file=input.apk
+else 
+java -jar AndResGuard-cli-1.1.16.jar $file -config config.xml -out outapk 
+fi
+```
