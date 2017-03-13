@@ -78,6 +78,8 @@ $ rar
 ##有用的一些东西
 
 ```command
-$ ll `which java`   #输出java的列表目录内容
+$ ll `which java`   #输出java的列表目录内容,shell中`反逗号内为运行的命令
+
+$ fpath=$(readlink -f .) && echo $fpath   ##获取文件的绝对路径； MAC下要安装`$ brew install coreunits`; `greadlink -f .`
 
 ```
