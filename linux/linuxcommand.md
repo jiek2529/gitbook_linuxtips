@@ -21,6 +21,8 @@ ctrl + r| （reverse-i-search）搜索并执行
 netstat -an \| grep 端口号| 查看端口占用情况
 telnet ip 443| 显示网络状态
 lsof -i :22| 查看端口运行情况
+sz|LINEX传windows（远端需要装上。`centos$ yum install lrzsz`; windows下使用）
+rz|windows传到LINUX（远端需要装上。`centos$ yum install lrzsz`）
 
 oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 一个增强版shell工具
