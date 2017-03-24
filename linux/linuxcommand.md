@@ -81,11 +81,19 @@ $ unzip -l test.apk        #查看apk下的文件清单
 
 ##有用的一些东西
 
+`$?`符号显示上一条命令的返回值，如果为0则代表执行成功，其他表示失败。
+```command
+if [[ $? -eq 0 ]];then
+  echo success!
+else
+  echo fail!
+fi
+```
+
 ```command
 $ ll `which java`   #输出java的列表目录内容,shell中`反逗号内为运行的命令
 
 $ fpath=$(readlink -f .) && echo $fpath   ##获取文件的绝对路径； MAC下要安装`$ brew install coreunits`; `greadlink -f .`
-
 ```
 
 以下为AndResGuard的实践示例简单shell
