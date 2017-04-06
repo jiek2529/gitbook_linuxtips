@@ -23,6 +23,8 @@ telnet ip 443| 显示网络状态
 lsof -i :22| 查看端口运行情况
 sz|LINEX传windows（远端需要装上。`centos$ yum install lrzsz`; windows下使用）
 rz|windows传到LINUX（远端需要装上。`centos$ yum install lrzsz`）
+i=1; while [ $i -le 99 ]; do name=\`printf "scene_%02d.md"  $i\`; touch "$name"; i=$(($i+1)); done|while 循环执行
+for i in $(seq 99); do name=$(printf scene_%02d.md $i); touch "$name"; done| for循环和seq命令
 
 oh-my-zsh https://github.com/robbyrussell/oh-my-zsh
 一个增强版shell工具
