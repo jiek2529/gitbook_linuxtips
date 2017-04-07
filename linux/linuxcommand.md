@@ -18,7 +18,7 @@ locale| 查看系统支持编码清单
 vi /etc/sysconfig/i18n| 下存编码格式
 cd -| 返回上次的目录
 ctrl + r| （reverse-i-search）搜索并执行
-netstat -an \| grep 端口号| 查看端口占用情况
+netstat -an &#124; grep 端口号| 查看端口占用情况
 telnet ip 443| 显示网络状态
 lsof -i :22| 查看端口运行情况
 sz|LINEX传windows（远端需要装上。`centos$ yum install lrzsz`; windows下使用）

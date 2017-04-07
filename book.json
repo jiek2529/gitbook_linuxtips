@@ -49,6 +49,9 @@
         "template": "acefull",
         "theme": "monokai"
         },
+    "theme-default": {
+        "showLevel": true
+        },
     "fontsettings": {
             "theme": "white",
             "family": "serif",
