@@ -45,7 +45,9 @@ Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
 ##常用命令
   
   1. scutil > sudo scutil --set HostName {new_name} #设置命令行机器名
-  + scutil --get HostName 获取命令行机器名
+  + scutil --get HostName 获取命令行机器名 >>设置好后就无法删除此值。默认为not set。
+  + terminal前的值为PS1，可`source ~/.bash_profile`里添加`PS1="\u \w \$"`
+     \u登录用户名，`W:last path`,`w:full path`.
   + whoami
   + env
   + sudo su - #切换到root用户
