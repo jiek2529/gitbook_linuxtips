@@ -1,6 +1,8 @@
 # macTerminalTips
 
-1. mac触角功能设置： apple > System Preferences > Destop & screen Saver > Screen Saver > (right bottom)Hot Corners > (left bottom).Start Screen saver
+1. Mac导出机器的所有配置信息方法： `Launchpad > Others > System Information > menu File > Save`就可把机器的信息保存到 {}.spx文件里，可在Mac下直接打开。
+
++ mac触角功能设置： apple > System Preferences > Destop & screen Saver > Screen Saver > (right bottom)Hot Corners > (left bottom).Start Screen saver
 
 + Require password after sleep or screen saver:  apple > System preferences > Security & Privacy > General > 5 seconds
 
