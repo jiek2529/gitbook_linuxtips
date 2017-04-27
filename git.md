@@ -1,8 +1,14 @@
 # git
 
+官方文档 https://git-scm.com/book/zh/v2
+
+`git help` 与 `man git`是个套件式的帮助，它有子手册，也下文所述。
+
+
 ## 常用命令
 
 1. cd %gitworkspace%
++ `man git` 或 `git help [branch|clone]` 两种看帮助或手机的，
 + `git remote -v`  查看当前git目录资源的repository
 + `git branch [-v[v]]`  无参显示本地分支； 一个v 显示verbose冗长分支信息； 两个v 显示带对应远程分支信息。
 + `git branch temp`     创建本地分支temp。
@@ -21,6 +27,58 @@
 + `git reset --hard HEAD~1`  回退近一次提交，近一次修改`全消失`。
 + `git worktree list`  查看当前所在工作树
 
+## git help
+
+非常精细的帮助。可使用以下的子手册，如`git help [clone|branch|everyday|add|reset|workflows|pull|glossary|等其它如下的键]`
+
+```shell
+$ git help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+```
+
+
+
 ## 提交步骤
 
 ```shell
@@ -35,7 +93,9 @@ git push
 >git push origin {name} 把本地的分支提交到远程服务器上
 
 
-##Manual 手册
+##Manual 手册 > man git
+
+此为概要手册，可不推荐看此手机；可使用`git help []`
 
 ###NAME 名称
        git - the stupid content tracker
