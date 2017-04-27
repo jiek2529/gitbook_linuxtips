@@ -4,11 +4,15 @@
 
 1. cd %gitworkspace%
 + `git remote -v`  查看当前git目录资源的repository
++ `git branch [-v[v]]`  无参显示本地分支； 一个v 显示verbose冗长分支信息； 两个v 显示带对应远程分支信息。
++ `git branch temp`     创建本地分支temp。
++ `git branch --delete feature`
++ `git checkout develop`   切换到本地develop分支。
 + `git config -l`  配置list，包括全局和本库信息。库地址 用户 账号
 + `git status`    当前目录的状态
 + `git config --global credential.helper osxkeychain` 记住账号密码信息，只要输入一次(MAC下)
 + `git checkout -- .`  放弃本地未add的修改
-+ `git checkout {file_name}` 放弃打定文件的本地修改
++ `git checkout {file_name}` 放弃指定文件的本地修改
 + `git revert {commitID}`  创建指定提交的反提交，即把某一次的提交的还原后的再提交，（git无法回滚）
 + `git reset --hard {commitID}`  强制回退到某个节点。丢弃它之后的提交。
 + `git reset --hard origin {分支名}` 用远程库强制覆盖本地。
