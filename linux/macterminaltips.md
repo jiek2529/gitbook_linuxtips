@@ -53,6 +53,8 @@ Ctrl + R 搜索历史中的命令,并执行（reverse-i-search）
   + sudo su - #切换到root用户
   + mkfile -n 1g ~/empty.log　创建占用空文件（20150908）
     ； 类WINDOW下的管理员执行fsutil file createnew empty.log 1024000
+  + command -v {java|java|adb} 用于查看机器环境下的命令版本信息
+  + /usr/libexec/java_home -V 参见：https://wilsonmar.github.io/java-on-apple-mac-osx/
 
 ##brew
 mac 下使用的下载安装工具
