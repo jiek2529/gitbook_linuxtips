@@ -27,6 +27,7 @@ http://openjdk.java.net/install/
 
 official github: https://github.com/hgomez/obuildfactory
 
+**默认的Android Studio {preview}版本里都内嵌了openJDK. 使用`{path}/Contents/jre/jdk/Contents/Home/bin/java -v`可看得出**
 ------
 
 1. [groovy console](/java/groovyconsole.md)
