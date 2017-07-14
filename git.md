@@ -31,7 +31,6 @@
 ```command
 @echo off
 set /p name="please enter branch name :"
-
 git checkout %name%
 git submodule foreach "git checkout %name%"
 ```  
