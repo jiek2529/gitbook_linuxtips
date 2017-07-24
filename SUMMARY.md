@@ -35,4 +35,5 @@
     * [sectionx](node/gitbook.md#sectionx)
     * [mcqx](node/gitbook.md#mcqx)
     * [ace](node/gitbook.md#ace)
+* [VPS搭建-翻\*墙](vpsda-5efa-7ffb-qiang.md)
 
