@@ -34,7 +34,8 @@
 set /p name="please enter branch name :"
 git checkout %name%
 git submodule foreach "git checkout %name%"
-```  
+```
++ `git rev-parse --short=7 HEAD`查看当前环境的HEAD的COMMIT_ID
 
 ## git help
 
