@@ -26,6 +26,7 @@
 + `git reset --soft HEAD~1`  回退近一次提交，近一次修改在`add`状态。
 + `git reset --hard HEAD~1`  回退近一次提交，近一次修改`全消失`。
 + `git worktree list`  查看当前所在工作树
++ `it log -n 50` 看git日志;  **退出按 q 键**
 + `git submodule update --init --recursive` 项目中使用的子项目初始化,可跨账户的
   1. 以下shell用于子模块的分支切换
 ```command
@@ -33,7 +34,8 @@
 set /p name="please enter branch name :"
 git checkout %name%
 git submodule foreach "git checkout %name%"
-```  
+```
++ `git rev-parse --short=7 HEAD`查看当前环境的HEAD的COMMIT_ID
 
 ## git help
 
