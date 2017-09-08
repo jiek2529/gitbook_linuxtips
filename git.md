@@ -4,6 +4,24 @@
 
 `git help` 与 `man git`是个套件式的帮助，它有子手册，也下文所述。
 
+##撤销与stash
+
+###撤销本地提交之前
+> git log
+> git stash
+> git reset --hard {commitid}
+> git stash pop
+
+###stash
+> git stash
+> git stash list
+> git stash show
+> git help stash
+> git stash pop
+
+###git废弃库提交
+> git reset --hard HEAD~
+> git push
 
 ## 常用命令
 
